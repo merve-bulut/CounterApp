@@ -24,6 +24,7 @@ struct ContentView: View {
                 .background(Color.red)
                 .foregroundColor(.white)
                 .cornerRadius(10)
+                .shadow(radius: 10)
                 
                 Button("Arttır") {
                     count += 1
@@ -32,6 +33,7 @@ struct ContentView: View {
                 .background(Color.green)
                 .foregroundColor(.white)
                 .cornerRadius(10)
+                .shadow(radius: 20)
             }
         }
     
